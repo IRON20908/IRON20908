@@ -17,11 +17,11 @@
     </extension>
 </addon>
 
-<addon id="repository.IRON" name="IRON" version="0.0.2" provider-name="IRON20908">
+<addon id="repository.IRON" name="IRON" version="0.0.3" provider-name="IRON">
 	<extension point="xbmc.addon.repository" name="IRON">
-		<info compressed="false">http://raw.github.com/IRON20908/repository.IRON/master/addons.xml</info>
-		<checksum>http://raw.github.com/IRON20908/repository.IRON/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/IRON20908/repository.IRON/master/repo/</datadir>
+		<info compressed="false">http://raw.github.com/IRON/repository.IRON/master/addons.xml</info>
+		<checksum>http://raw.github.com/IRON/repository.IRON/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/IRON/repository.IRON/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>IRON Addon</summary>
