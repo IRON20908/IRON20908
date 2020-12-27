@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.f4mTester" version="3.0.0" name="F4mTester" provider-name="www.netfreex.com.br">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.7.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Addon necessÃ¡rio para o correto funcionamento do NetFreeX Play</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.IRON" name="IRON" version="0.0.2" provider-name="IRON20908">
 	<extension point="xbmc.addon.repository" name="IRON">
 		<info compressed="false">http://raw.github.com/IRON20908/repository.IRON/master/addons.xml</info>
